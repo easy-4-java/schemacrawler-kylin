@@ -364,7 +364,6 @@
 		</profile>
 	</profiles>
 
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<kylin-jdbc.version>3.0.0</kylin-jdbc.version>
