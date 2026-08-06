@@ -2,6 +2,8 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
+[![Java](https://img.shields.io/badge/Java-17-orange)](https://github.com/easy-4-java/schemacrawler-kylin) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
+
 [Apache Kylin](https://kylin.apache.org/) 的 SchemaCrawler 数据库插件。它通过 JDK `ServiceLoader` 机制将 `kylin` 数据库类型注册到 SchemaCrawler 的 `DatabaseConnectorRegistry`，使 SchemaCrawler 命令行与库用户可以通过 `jdbc:kylin:*` URL 连接 Kylin 并检查其 Schema。
 
 ## 目录
