@@ -2,6 +2,8 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
+[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/schemacrawler-kylin) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
+
 SchemaCrawler plug-in for [Apache Kylin](https://kylin.apache.org/). It registers the `kylin` database system with SchemaCrawler so that `jdbc:kylin:*` connections can be inspected through the standard SchemaCrawler tool chain.
 
 ## Table of Contents
