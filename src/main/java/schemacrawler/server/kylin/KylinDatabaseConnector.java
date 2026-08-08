@@ -55,7 +55,7 @@ import schemacrawler.tools.iosource.ClasspathInputResource;
  * SchemaCrawler plug-in discovery mechanism (see the
  * {@code META-INF/services} registration file in this module).</p>
  *
- * @author easy-4-java contributors
+ * @author [@Loong Wan](https://github.com/loong10k)
  * @since 3.0.0
  * @see DatabaseConnector
  * @see DatabaseServerType
