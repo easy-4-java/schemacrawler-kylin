@@ -2,7 +2,7 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/schemacrawler-kylin) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
+[![Java](https://img.shields.io/badge/Java-21-orange)](https://github.com/easy-4-java/schemacrawler-kylin) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 
 SchemaCrawler plug-in for [Apache Kylin](https://kylin.apache.org/). It registers the `kylin` database system with SchemaCrawler so that `jdbc:kylin:*` connections can be inspected through the standard SchemaCrawler tool chain.
 
@@ -50,13 +50,13 @@ SchemaCrawler plug-in for [Apache Kylin](https://kylin.apache.org/). It register
 | CLI help integration (`Connections.kylin.txt`) | Available | `--host`, `--port`, `--database`, `--user`, `--password` options |
 | Information-schema views resource | Limited | `kylin.information_schema` resource ships with the plug-in; its content is currently minimal (empty baseline). |
 
-> Status is reported as of `1.0.x.20260630-SNAPSHOT` on the `feature/1.0.x` branch.
+> Status is reported as of `3.0.x.x.20260630-SNAPSHOT` on the `feature/3.0.x` branch.
 
 ## 3. Requirements & Compatibility
 
 | Item | Version |
 | :--- | :--- |
-| JDK | 8+ |
+| JDK | 21+ |
 | Maven | 3.0+ (Maven Wrapper 3.5.0 bundled) |
 | SchemaCrawler | 16.7.2 |
 | Kylin JDBC driver | 3.0.0 (`org.apache.kylin:kylin-jdbc`) |
@@ -96,7 +96,7 @@ This is a **single-module** project (packaging `jar`):
 
 ## 5. Installation
 
-The artifact is not yet published to Maven Central. Resolve it from the project's configured artifact repository (Aliyun Packages) or install it locally from source; the snapshot version currently used on the `feature/1.0.x` branch is `1.0.x.20260630-SNAPSHOT`.
+The artifact is not yet published to Maven Central. Resolve it from the project's configured artifact repository (Aliyun Packages) or install it locally from source; the snapshot version currently used on the `feature/3.0.x` branch is `3.0.x.x.20260630-SNAPSHOT`.
 
 **Maven**
 
@@ -104,14 +104,14 @@ The artifact is not yet published to Maven Central. Resolve it from the project'
 <dependency>
     <groupId>io.github.easy4j</groupId>
     <artifactId>schemacrawler-kylin</artifactId>
-    <version>1.0.x.20260630-SNAPSHOT</version>
+    <version>3.0.x.x.20260630-SNAPSHOT</version>
 </dependency>
 ```
 
 **Gradle**
 
 ```groovy
-implementation 'io.github.easy4j:schemacrawler-kylin:1.0.x.20260630-SNAPSHOT'
+implementation 'io.github.easy4j:schemacrawler-kylin:3.0.x.x.20260630-SNAPSHOT'
 ```
 
 ## 6. Quick Start

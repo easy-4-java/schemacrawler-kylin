@@ -2,7 +2,7 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/schemacrawler-kylin) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
+[![Java](https://img.shields.io/badge/Java-21-orange)](https://github.com/easy-4-java/schemacrawler-kylin) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 
 [Apache Kylin](https://kylin.apache.org/) 的 SchemaCrawler 数据库插件。它通过 JDK `ServiceLoader` 机制将 `kylin` 数据库类型注册到 SchemaCrawler 的 `DatabaseConnectorRegistry`，使 SchemaCrawler 命令行与库用户可以通过 `jdbc:kylin:*` URL 连接 Kylin 并检查其 Schema。
 
@@ -50,13 +50,13 @@
 | CLI 帮助集成（`Connections.kylin.txt`） | 可用 | `--host`、`--port`、`--database`、`--user`、`--password` 选项 |
 | information-schema 视图资源 | 有限 | 插件随包提供 `kylin.information_schema` 资源，目前内容为最小化基线（空文件）。 |
 
-> 状态以 `feature/1.0.x` 分支上的 `1.0.x.20260630-SNAPSHOT` 为准。
+> 状态以 `feature/3.0.x` 分支上的 `3.0.x.x.20260630-SNAPSHOT` 为准。
 
 ## 3. Requirements & Compatibility
 
 | 项目 | 版本 |
 | :--- | :--- |
-| JDK | 8+ |
+| JDK | 21+ |
 | Maven | 3.0+（内置 Maven Wrapper 3.5.0） |
 | SchemaCrawler | 16.7.2 |
 | Kylin JDBC 驱动 | 3.0.0（`org.apache.kylin:kylin-jdbc`） |
@@ -96,7 +96,7 @@
 
 ## 5. Installation
 
-该构件尚未发布到 Maven Central。请从项目配置的制品仓库（阿里云制品仓库）获取，或从源码本地安装；`feature/1.0.x` 分支当前使用的快照版本为 `1.0.x.20260630-SNAPSHOT`。
+该构件尚未发布到 Maven Central。请从项目配置的制品仓库（阿里云制品仓库）获取，或从源码本地安装；`feature/3.0.x` 分支当前使用的快照版本为 `3.0.x.x.20260630-SNAPSHOT`。
 
 **Maven**
 
@@ -104,14 +104,14 @@
 <dependency>
     <groupId>io.github.easy4j</groupId>
     <artifactId>schemacrawler-kylin</artifactId>
-    <version>1.0.x.20260630-SNAPSHOT</version>
+    <version>3.0.x.x.20260630-SNAPSHOT</version>
 </dependency>
 ```
 
 **Gradle**
 
 ```groovy
-implementation 'io.github.easy4j:schemacrawler-kylin:1.0.x.20260630-SNAPSHOT'
+implementation 'io.github.easy4j:schemacrawler-kylin:3.0.x.x.20260630-SNAPSHOT'
 ```
 
 ## 6. Quick Start
